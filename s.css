@@ -1,0 +1,11 @@
+img {
+    max-width: fit-content;
+    max-height: fit-content;
+    float: left;
+}
+body {
+    background-color: rgb(196, 203, 184);
+}
+hr {
+    border: 0.1px solid rgb(180, 119, 186);
+}
