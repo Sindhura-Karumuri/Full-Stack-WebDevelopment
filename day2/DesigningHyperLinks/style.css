@@ -1,0 +1,22 @@
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(222, 162, 220);
+    display: inline;
+}
+a:hover{
+    color: rgb(143, 87, 195);
+    background-color: rgb(217, 228, 183);
+    padding: 10px0;
+}
+a:active{
+    color: rgb(163, 232, 201);
+}
+.sp1{
+    color: rgb(230, 12, 12);
+    font-weight: bold;
+}
+.sp2{
+    color: rgb(17, 17, 230);
+    font-weight: lighter;
+}

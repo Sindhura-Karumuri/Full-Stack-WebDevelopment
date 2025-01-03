@@ -1,0 +1,17 @@
+table{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    background-color: rgb(178, 188, 136);
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 0px;
+}
+tr:hover{
+    background-color: rgb(167, 220, 238);
+    color: rgb(225, 33, 232);
+}
+

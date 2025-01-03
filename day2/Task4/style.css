@@ -1,0 +1,17 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.child{
+    width: 350px;
+    box-shadow: 0px 5px 10px gray;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(210, 162, 162);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+

@@ -1,0 +1,15 @@
+.one {
+    text-align: center;
+    background-color: rgb(234, 240, 185);
+}
+.two{
+    text-align: end;
+    background-color: rgb(185, 169, 201);
+}
+.one h1{
+    color: rgb(232, 67, 67);
+    background-color: aquamarine;
+}
+.two h1 {
+    color: rgb(79, 13, 232);
+}

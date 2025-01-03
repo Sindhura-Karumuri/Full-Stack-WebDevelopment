@@ -1,0 +1,13 @@
+html{
+    font-size: 10px;
+}    
+p{
+    font-size: 1.7rem;
+}
+h1 {
+    font-size: 3em;
+}
+ul{
+    font-size: 2rem;
+    list-style-type: none;
+}
