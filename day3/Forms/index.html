@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- user registration form -->
+     <form>
+        <!-- user name -->
+         <div class="gap">
+            <label for="username">Username</label>
+            <input type="text" id="username" autocomplete="off" placeholder="Please enter username" required minlength="4" maxlength="6">
+         </div>
+         <!-- password -->
+          <div class="gap">
+          <label for="">Password</label>
+          <input type="password" id="password" placeholder="Please enter password">
+        </div>
+         <!-- salary -->
+          <div class="gap">
+            <label for="salary">Salary</label>
+            <input type="number" id="salary">
+          </div>
+          <!-- dob -->
+           <div class="gap">
+            <label for="date">DOB</label>
+            <input type="date" id="date">
+           </div>
+           <!-- email -->
+            <div class="gap">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+           <!-- profile -->
+            <div class="gap">
+                <label for="file">Choose file</label>
+                <input type="file" id="file">
+            </div>
+            <!-- check box for skills -->
+             <div class="gap">
+                <label>Choose Skills</label>
+                <!-- skill-1 -->
+                 <div class="gap">
+                    <input type="checkbox" name="js" id="js">
+                    <label for="js">JavaScript</label>
+                 </div>
+                 <!-- skill-2 -->
+                 <div class="gap">
+                    <input type="checkbox" name="java" id="java">
+                    <label for="java">Java</label>
+                 </div>
+                <!-- skill-3 -->
+                <div class="gap">
+                   <input type="checkbox" name="react" id="react">
+                   <label for="react">React</label>
+                </div>
+             </div>
+            <!-- gender -->
+            <div class="gap">
+                <label>Choose Gender</label>
+                <!-- gender-1 -->
+                 <div class="gap">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                 </div>
+                 <!-- gender-2 -->
+                 <div class="gap">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                 </div>
+            </div>
+                 <!-- state -->
+                  <div class="gap">
+                    <label for="state">Select state</label>
+                    <select name="state" id="state">
+                        <option value="ap">Andhra Pradesh</option>
+                        <option value="telangana">Telgana</option>
+                        <option value="kerela">Kerela</option>
+                    </select>
+                  </div>
+                  <!-- feedback -->
+                   <div class="gap">
+                    <label for="feedback">Feedback</label>
+                    <textarea name="feedback" id="feedback" cols="50" rows="5"></textarea>
+                   </div>
+           
+                <!-- submit button -->
+                  <button type="submit">Login</button>
+     </form>
+</body>
+</html>

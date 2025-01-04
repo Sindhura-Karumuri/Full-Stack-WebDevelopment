@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+h1{
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+}
+.parent{
+    width: 700px;
+    margin: auto;
+    border: 5px solid rgb(232, 152, 152);
+    height: 700px;
+    position: relative;
+    margin-top: 50px;
+}
+body{
+    height: 1000px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+}
+.child1{
+    background-color: red;
+    position: absolute;
+    right: 200px;
+}
+.child2{
+    background-color: green;
+    position: fixed;
+    left: -10px;
+}
+.child3{
+    background-color: blue;
+    position: sticky;
+    top: 100px;
+}
+/* pos-static,relative,absolute,fixed,sticky */

@@ -1,0 +1,23 @@
+body{
+    background-image:url('../Task1/im.jpg');
+    background-size: 100%;
+}
+h1{
+    margin: auto;
+    margin-top: 275px;
+    text-align:center;
+    font-size: 100px;
+    color: rgb(139, 31, 241);
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.b{
+   text-align: center;
+}
+button{
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
