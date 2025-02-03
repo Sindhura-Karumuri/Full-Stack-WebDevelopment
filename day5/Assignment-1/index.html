@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body class="container mt-5">
+    <!-- navs & tabs -->
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container">
+            <!-- Company Name -->
+            <a href="#" class="navbar-brand">Company name</a>
+            
+            <!-- Navbar Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Items (Aligned Right) -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto"> <!-- Added ms-auto -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Enterprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn border-info text-info">Sign up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <button data-bs-target="#navmenu" data-bs-toggle="collapse" class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    </nav>
+    <h1 class="text-center">Pricing</h1> 
+    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem voluptatem incidunt tempora ipsam doloribus ipsum maiores quae fugit quod vitae.</p>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="col text-center">
+            <div class="card h-100 p-5 bg-light">
+                <h5 class="header text-center">Free</h5>
+                <h3 class="free-body"><b>$0</b>/mo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, provident?</p>
+                <div class="card-body">
+                    <button class="btn text-primary border-primary">Sign up for free</button>
+                </div>
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="card h-100 p-5 bg-light">
+                <h5 class="header text-center">Pro</h5>
+                <h3><b>$15</b>/mo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, provident?</p>
+                <div class="card-body">
+                    <button class="btn border-primary text-dark bg-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="card h-100 p-5 bg-light">
+                <h5 class="header text-center">Enterprise</h5>
+                <h3><b>$29</b>/mo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, provident?</p>
+                <div class="card-body">
+                    <button class="btn border-primary text-light bg-primary">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
